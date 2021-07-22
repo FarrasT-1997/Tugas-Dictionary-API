@@ -10,7 +10,28 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": null
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=jp&apiKey=800665c78e074b26ba3fccded9b0f001",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "jp"
+						},
+						{
+							"key": "apiKey",
+							"value": "800665c78e074b26ba3fccded9b0f001"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -19,7 +40,32 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": null
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=kr&category=technology&apiKey=800665c78e074b26ba3fccded9b0f001",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "kr"
+						},
+						{
+							"key": "category",
+							"value": "technology"
+						},
+						{
+							"key": "apiKey",
+							"value": "800665c78e074b26ba3fccded9b0f001"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -28,7 +74,36 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": null
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=coronavirus&from=2021-07-14&to=2021-07-14&apiKey=800665c78e074b26ba3fccded9b0f001",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "coronavirus"
+						},
+						{
+							"key": "from",
+							"value": "2021-07-14"
+						},
+						{
+							"key": "to",
+							"value": "2021-07-14"
+						},
+						{
+							"key": "apiKey",
+							"value": "800665c78e074b26ba3fccded9b0f001"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -37,7 +112,36 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": null
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=economy&sources=cnn&sortBy=popularity&apiKey=800665c78e074b26ba3fccded9b0f001",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "economy"
+						},
+						{
+							"key": "sources",
+							"value": "cnn"
+						},
+						{
+							"key": "sortBy",
+							"value": "popularity"
+						},
+						{
+							"key": "apiKey",
+							"value": "800665c78e074b26ba3fccded9b0f001"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -46,7 +150,32 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": null
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=spacex&sources=techcrunch&apiKey=800665c78e074b26ba3fccded9b0f001",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "spacex"
+						},
+						{
+							"key": "sources",
+							"value": "techcrunch"
+						},
+						{
+							"key": "apiKey",
+							"value": "800665c78e074b26ba3fccded9b0f001"
+						}
+					]
+				}
 			},
 			"response": []
 		}
